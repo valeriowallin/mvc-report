@@ -16,3 +16,11 @@ nav ul {
     list-style: none;
     gap: 1.5rem;
 }
+
+.two-columns {
+    display: flex;
+    gap: 2rem;
+  }
+.two-columns > div {
+    flex: 1;
+}

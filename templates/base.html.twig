@@ -15,7 +15,7 @@
     </head>
     <body>
         <header class="site-header" style="background-image: url({{ asset('img/background.jpg') }})">
-            <span class="site-title">My Symfony Site</span>
+            <span class="site-title">Symfony Site for MVC Course</span>
         </header>
         <nav>
             <ul>
@@ -26,5 +26,8 @@
             </ul>
         </nav>
         {% block body %}{% endblock %}
+    <footer>
+        {% include 'footer.html.twig' %}
+    </footer>
     </body>
 </html>
